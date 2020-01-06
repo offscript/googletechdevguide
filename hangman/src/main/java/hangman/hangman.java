@@ -9,4 +9,14 @@ public class hangman {
         RandomGenerator rg = new RandomGenerator();
     }
 
+    public void run { 
+        /*create new word from Hangman Lexicon
+        game(word)
+        playAgain()
+        */
+    }
+
+    //
+    //public void game(String word) {}
+    //public boolean playAgain() {}
 }
