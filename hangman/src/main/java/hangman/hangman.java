@@ -1,15 +1,20 @@
-package hangman;
+package Hangman;
 
 import acm.util.*;
 
-public class hangman {
+public class Hangman {
 
     public static void main(String args[]) {
-        System.out.println('x');
-        RandomGenerator rg = new RandomGenerator();
+        Hangman h = new Hangman();
+        h.run();
     }
 
-    public void run { 
+    public void run() {
+        RandomGenerator rg = new RandomGenerator();
+        int index = rg.nextInt(0, 9);
+        HangmanLexicon hexagon = new HangmanLexicon();
+        String word = hexagon.getWord(index); 
+        System.out.println(word);
         /*create new word from Hangman Lexicon
         game(word)
         playAgain()

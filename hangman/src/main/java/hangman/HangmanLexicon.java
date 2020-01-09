@@ -4,6 +4,8 @@
  * This file contains a stub implementation of the HangmanLexicon
  * class that you will reimplement for Part III of the assignment.
  */
+package Hangman;
+
 import acm.util.*;
 public class HangmanLexicon {
 /** Returns the number of words in the lexicon. */
